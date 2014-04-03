@@ -1,0 +1,26 @@
+Sets in Prolog
+
+Implement the following set operations in Prolog:
+
+Membership (20 points)
+in(X,A) succeeds when an element X is in set A.
+
+Union (20 points)
+union(A,B,R) where R is the union of sets A and B. That is, R contains
+elements that are in either A or B.
+
+Intersection (20 points)
+intersection(A,B,R) where R is the intersection of sets A and B. That
+is, R contains elements that are both in A and B.  
+
+Difference (20 points)
+difference(A,B,R) where R is A-B (subtraction or difference). That is,
+R contains all elements of A that are not in B.
+
+Subset (20 points)
+subset(A,B) succeeds when A is a subset of B.
+
+selection (extra credit: 20 points):
+selection(A,Cond,R), where A is the original set, Cond is the criteria
+for selecting an element, and R is the resulted set containing all
+selected elements from A.
