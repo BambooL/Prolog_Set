@@ -1,0 +1,5 @@
+This is an exercise for the prolog programming
+language which re-designed the "set". This "set"
+has some common features as the built-in data
+structure List but with a new method called 
+"select". 
