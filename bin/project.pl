@@ -149,7 +149,7 @@ select([H|T],X,lt,R):-
     select(T,X,lt,R).
 
 % empty set
-select([],X,lt,[]).
+select([],X,gt,[]).
 
 % set is not empty
 select([H|T],X,gt,[H|R]):-
