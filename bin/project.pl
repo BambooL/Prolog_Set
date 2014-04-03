@@ -164,17 +164,8 @@ select([H|T],X,gt,R):-
 
 
 %select([H|T],Cond,[R]):-
-%    call(Cond),!,
+%    \+call(Cond),
 %    select(T,Cond,[R]).
-
-
-%select([],X,Cond,[]).
-%select([H|T],X,Cond,Sel):-
-%   copy_term(X-Cond,XC-CondC),
-%   H=XC,
-%   (call(CondC) -> Sel=[H|R] ; Sel=R),
-%   select(T,X,Cond,R).
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
